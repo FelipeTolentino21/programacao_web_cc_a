@@ -1,0 +1,5 @@
+Clone: Clona repositório remoto para repositório local
+Pull: Atualiza repositório local
+Add: Adiciona alteração do repositório local no ---
+Commit: Salva atualização no repositório local
+Push: Envia alteração para repositório remoto
