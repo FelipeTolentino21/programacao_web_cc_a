@@ -3,3 +3,6 @@ Pull: Atualiza repositório local
 Add: Adiciona alteração do repositório local no ---
 Commit: Salva atualização no repositório local
 Push: Envia alteração para repositório remoto
+
+git config --global user.name (nome): Atualiza o nome do usuário do repositório local
+git config --global user.email (nome): Atualiza o email do usuário do repositório local
