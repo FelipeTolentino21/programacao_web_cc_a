@@ -3,10 +3,31 @@
     text-align: center;
 }
 
-.form-entries{
-    border: 1px solid;
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 35px;
+
+    border: 10px solid #ffa939;
+    background-color: #ffc77d;
+    border-radius: 15px;
+    width: 400px;
+    height: 400px;
+    margin: auto;
 }
 
-.footer{
-    border: 1px solid;
+.footer {
+    position: absolute;
+    bottom: 0;
+    
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    background-color: #ffa939;
+    padding: 10px;
+
+    text-align: center;
 }
