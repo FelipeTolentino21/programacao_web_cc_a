@@ -3,7 +3,47 @@
     text-align: center;
 }
 
-.container{
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+#left{
+    display: flex;
+    justify-content: center;
+
+    height: 100%;
+    width: 30%;
+}
+
+#middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 100%;
+    width: 40%;
+}
+
+#right{
+    display: flex;
+    justify-content: center;
+
+    height: 100%;
+    width: 30%;
+}
+
+#foxleft{
+    padding-top: 50px;
+    padding-left: 40px;
+
+    width: 350px;
+    height: 350px;
+}
+
+.forms{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -15,7 +55,25 @@
     border-radius: 15px;
     width: 400px;
     height: 400px;
-    margin: auto;
+    
+    z-index: 1;
+}
+
+#foxright{
+    padding-top: 20px;
+    padding-right: 90px;
+
+    width: 240px;
+    height: 400px;
+}
+
+@media (max-width: 1200px) {
+    #foxleft{
+        display: none;
+    }
+    #foxright{
+        display: none;
+    }
 }
 
 .insert input{
@@ -31,14 +89,6 @@
     border-radius: 5px;
 }
 
-#fox{
-    position: absolute;
-    top: 150px; left: 200px;
-
-    width: 300px;
-    height: 300px;
-}
-
 .footer {
     position: absolute;
     bottom: 0;
@@ -51,4 +101,8 @@
     padding: 10px;
 
     text-align: center;
+}
+
+body{
+    overflow: hidden;
 }
