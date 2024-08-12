@@ -1,0 +1,41 @@
+#titulo {
+    text-align: center;
+    color: blue;
+}
+
+body{
+    margin: 0;
+}
+
+.rodape {
+    background-color: lightgray;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+}
+
+.entradas-formulario {
+    border: 1px solid;
+    width: 300px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input, button{ 
+    display: block;
+    padding: 2px;
+    margin: 2px;
+}
