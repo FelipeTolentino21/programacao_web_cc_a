@@ -99,10 +99,9 @@
 
     background-color: #ffa939;
     padding: 10px;
-
-    text-align: center;
 }
 
 body{
+    margin: 0;
     overflow: hidden;
 }
